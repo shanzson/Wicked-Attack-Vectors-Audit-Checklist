@@ -1,7 +1,7 @@
 # Wicked-Attack-Vectors-Audit-Checklist
 
 <p align = center>
-<img src= "./images/built-with.png">
+<img src= "./images/11c29247c9be4f5095cbe9258c440b2a.png">
 <br>
 </p>
   
