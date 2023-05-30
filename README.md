@@ -9,3 +9,4 @@
 - Are the comments untruthful to you?
 - Can collusion of different roles - such as borrower, lender and liquidator - pull off a heist?
 - Does the contract allow payment in any token like a shitcoin?
+- Is there any way to lock the tokens forever in the contract? Such as by breaking the flow in which the contract functions are supposed to be called.
