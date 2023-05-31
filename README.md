@@ -2,6 +2,7 @@
 
 <p align = center>
 <img src= "./images/20230530_113017.png" height="200">
+ ![](https://tenor.com/view/naruto-orochimaru-smirk-gif-7893986)
 <br>
 </p>
   
