@@ -13,4 +13,4 @@
 - Using safetransferFrom on address(this) to another address is a bad idea, if no approve is used in the contract code. Use it and transfers will fail.
 - Mapping inside a mapping will persist even if you delete the outer mapping. You don't want old and dirty values to be used, do you? 
 - Is the transferFrom being called on an arbitrary address instead of msg.sender? This can mess up things in weird ways. 
-- Are the public functions vulnerable to critical frontrun attacks like [this](https://github.com/ajna-finance/audits/blob/main/sherlock/Contest1.md)? Hiding in plain sight?
+- Are the public functions vulnerable to critical frontrun attacks like [this](https://github.com/sherlock-audit/2023-01-ajna-judging/issues/140)? Hiding in plain sight?
