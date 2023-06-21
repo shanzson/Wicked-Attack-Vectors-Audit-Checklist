@@ -15,3 +15,4 @@
 - Is the transferFrom being called on an arbitrary address instead of msg.sender? This can mess up things in weird ways. 
 - Are the public functions vulnerable to critical frontrun attacks like [this](https://github.com/sherlock-audit/2023-01-ajna-judging/issues/140)? Hiding in plain sight? Don't let non-owners steal assets of the actual owners.
 - Is the math for rewarding tokens depending on a variable that can be exploited by users? Lookout for proportionality to measure impact!
+- Can the owner frontrun the sh*t out of users like [this](https://consensys.net/diligence/audits/2021/06/growthdefi-wheat/#frontrunning-attacks-by-the-owner)?
