@@ -18,3 +18,4 @@
 - Can the owner frontrun the sh*t out of users like [this](https://consensys.net/diligence/audits/2021/06/growthdefi-wheat/#frontrunning-attacks-by-the-owner)?
 - Are the parameters of functions used in a convoluted way? Like the money is being sent to the seller instead of the buyer?
 - Are you missing any edge cases, by being too edgy?
+- Are the modifiers to weak to keep off zombies(aka hackers)? Are there any if statements or require statements in it, which they can eat off through, to get to you?
