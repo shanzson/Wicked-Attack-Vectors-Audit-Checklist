@@ -19,3 +19,4 @@
 - Are the parameters of functions used in a convoluted way? Like the money is being sent to the seller instead of the buyer?
 - Are you missing any edge cases, by being too edgy?
 - Are the modifiers too [weak](https://twitter.com/BlockSecTeam/status/1692533280971936059?t=pZijRKlnlcFfo9fdEk8dSQ&s=19) to keep off zombies(aka hackers)? Are there any if statements or require statements in it, which they can eat off through, to get to you?
+- Are the terms like buyer and seller in docs, been flipped during coding? E.g. The buyer himself can perform actions of seller which in fact should have only been performed by the seller.  
