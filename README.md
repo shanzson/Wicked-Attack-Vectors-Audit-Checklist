@@ -21,3 +21,4 @@
 - Are the modifiers too [weak](https://twitter.com/BlockSecTeam/status/1692533280971936059?t=pZijRKlnlcFfo9fdEk8dSQ&s=19) to keep off hacker zombies? Are there any if statements or require statements in it, which they can eat off through, to get to you?
 - Are the terms like buyer and seller in docs, been flipped during coding? E.g. The buyer himself can perform actions of seller which in fact should have only been performed by the seller.
 - Is the contract relying on require statements that contain strict equality comparisons with **balanceOf(address(this))** ? So that the attacker can wreck it all by sending just 1 tiny token?
+- Are the indices of array assignments so messed up that they feel like dark magic?
