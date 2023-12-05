@@ -22,3 +22,4 @@
 - Are the terms like buyer and seller in docs, been flipped during coding? E.g. The buyer himself can perform actions of seller which in fact should have only been performed by the seller.
 - Is the contract relying on require statements that contain strict equality comparisons with **balanceOf(address(this))** ? So that the attacker can wreck it all by sending just 1 tiny token?
 - Are the indices of array assignments so messed up that they feel like dark magic?
+- Are the decimals of token not scaled to the [same](https://dacian.me/precision-loss-errors#heading-no-precision-scaling) units while calculation? Hope that you don't scale it [excessively](https://dacian.me/precision-loss-errors#heading-excessive-precision-scaling) so as to take your eye balls out! Also watch out for [hardcoded](https://dacian.me/precision-loss-errors#heading-mismatched-precision-scaling) eye balls! 
