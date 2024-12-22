@@ -24,4 +24,5 @@
 17. Are the indices of array assignments so messed up that they feel like dark magic?
 18. Are the decimals of token not scaled to the [same](https://dacian.me/precision-loss-errors#heading-no-precision-scaling) units while calculation? Hope that you don't scale it [excessively](https://dacian.me/precision-loss-errors#heading-excessive-precision-scaling) so as to take your eye balls out! Also watch out for [hardcoded](https://dacian.me/precision-loss-errors#heading-mismatched-precision-scaling) eye balls! 
 19. Can the attacker Inflate your Vault by frontrunning the victim and greedily giving zero share to him and running with all the bazookas like [this](https://blog.openzeppelin.com/a-novel-defense-against-erc4626-inflation-attacks)?
-20. Does the protocol allow borrowing and lending in the same block? If yes, then Congrats! You are vulnerable to a Flash Loan Attack. Disallow depositing and borrowing in the same block. 
+20. Does the protocol allow borrowing and lending in the same block? If yes, then Congrats! You are vulnerable to a Flash Loan Attack. Disallow depositing and borrowing in the same block.
+21. Is the transaction reverting like Joker on Underflow operation at Valid states, instead of the returning zero via zeroFloorSub() operation? We don't want it to fail when the operation could have better just continued instead?
